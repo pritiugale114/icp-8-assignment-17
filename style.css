@@ -1,0 +1,113 @@
+.main-body{
+    text-align: center;
+    font-size: 30px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+.box1{
+    height:400px;
+    width: 1500px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-left:20px;
+    padding-top:40px;
+}
+.box12{
+    height:400px;
+    width: 1500px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top:40px;
+}
+.box11{
+    height:400px;
+    width: 1500px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    padding-top:40px;
+}
+.card{
+    height: 300px;
+    width:200px;
+ border: 2px solid #000000;
+}
+.box2{
+    height:1700px;
+    width: 300px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:40px;
+}
+.card1{
+    height: 300px;
+    width:200px;
+ border: 2px solid #000000;
+}
+.box3{
+    height:1700px;
+    width: 300px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    padding-left:40px;
+}
+.box4{
+    height:1700px;
+    width: 300px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    padding-left:40px;
+}
+.box5{
+    height:1700px;
+    width: 300px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding-left:40px;
+}
+.box6{
+    height:1700px;
+    width: 300px;
+    background-color:rgb(216, 253, 248) ;
+    border: 2px solid #000000;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding-left:40px;
+}
+.container2{
+    height:1700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container1{
+    height:1400px;
+    width: 100%;
+    padding-left:50px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+}
